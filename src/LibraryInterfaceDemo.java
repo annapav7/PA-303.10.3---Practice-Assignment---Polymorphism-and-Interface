@@ -9,12 +9,7 @@ Date: 3/27/2024
 public class LibraryInterfaceDemo {
     public static void main(String[] args) {
         System.out.println("// Test case #1: ");
-        KidUsers kidUsers = new KidUsers() {
-            @Override
-            public void reguestBook() {
-
-            }
-        };
+        KidUsers kidUsers = new KidUsers();
 
         kidUsers.setAge(10);
         kidUsers.setBookType("Kids");
@@ -29,12 +24,8 @@ public class LibraryInterfaceDemo {
         System.out.println();
 
         System.out.println("// Test case #2: ");
-        AdultUser adultUser = new AdultUser() {
-            @Override
-            public void reguestBook() {
+        AdultUser adultUser = new AdultUser();
 
-            }
-        };
 
         adultUser.setAge(5);
         adultUser.setBookType("Kids");

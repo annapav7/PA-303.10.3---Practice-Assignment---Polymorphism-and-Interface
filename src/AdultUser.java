@@ -1,4 +1,4 @@
-public abstract class AdultUser implements ILibraryUser {
+public class AdultUser implements ILibraryUser {
     private int age;
 
     private String bookType;
@@ -23,6 +23,12 @@ public abstract class AdultUser implements ILibraryUser {
             System.out.println("Sorry, age must be greater than 12 to register as an adult.");
         }
     }
+
+    @Override
+    public void reguestBook() {
+
+    }
+
     @Override
     public void requestBook(){
         if (bookType.equals("Fiction")){

@@ -1,7 +1,7 @@
-public interface ILibraryUser {
-    public void registerAccount();
+abstract public interface ILibraryUser {
+    abstract void registerAccount();
 
-    public void reguestBook();
+    abstract void reguestBook();
 
     void requestBook();
 }
