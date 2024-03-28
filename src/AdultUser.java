@@ -24,10 +24,6 @@ public class AdultUser implements ILibraryUser {
         }
     }
 
-    @Override
-    public void reguestBook() {
-
-    }
 
     @Override
     public void requestBook(){
