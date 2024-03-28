@@ -25,7 +25,7 @@ public class KidUsers implements ILibraryUser{
     }
 
 
-//    @Override
+    @Override
     public void requestBook(){
         if (bookType.equals("Kids")){
             System.out.println("Book issued successfully, please return the book within 10 days!");

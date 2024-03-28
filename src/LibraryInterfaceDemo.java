@@ -5,10 +5,9 @@ Author: Pavlenko Anna
 Date: 3/27/2024
  */
 
-
 public class LibraryInterfaceDemo {
     public static void main(String[] args) {
-        System.out.println("// Test case #1: ");
+        System.out.println("// Test case 1: ");
         KidUsers kid1 = new KidUsers();
         KidUsers kid2 = new KidUsers();
 
@@ -29,7 +28,7 @@ public class LibraryInterfaceDemo {
 
         System.out.println();
 
-        System.out.println("// Test case #2: ");
+        System.out.println("// Test case 2: ");
         AdultUser adult1 = new AdultUser();
         AdultUser adult2 = new AdultUser();
 
